@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "http://hamzaoda.github.io/myPortfolio",
   "dependencies": {
     "@emotion/react": "^11.10.6",
