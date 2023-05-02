@@ -13,6 +13,7 @@ function Pages() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/project/:id" element={<ProjectDisplay />} />
                 <Route path="/experience" element={<Experience />} />
+                <Redirect to="/" />
             </Routes>
         </div>
     );
