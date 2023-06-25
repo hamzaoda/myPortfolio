@@ -2,6 +2,8 @@ import proj1 from '../assets/1.png'
 import proj2 from '../assets/2.png'
 import proj3 from '../assets/3.png'
 import proj4 from '../assets/4.png'
+import proj5 from '../assets/5.png'
+import proj6 from '../assets/6.png'
 
 
 
@@ -22,6 +24,20 @@ export const ProjectList = [
         github:"https://github.com/hamzaoda/gpt3_website"
     },
     {
+        name:"Gerich-resturant",
+        image:proj5,
+        skills: "HTML, CSS, React JS, Responsive design",
+        link:"https://hamzaoda.github.io/Gerich-resturant/",
+        github:"https://github.com/hamzaoda/Gerich-resturant"
+    },
+    {
+        name:"Modern Bank",
+        image:proj6,
+        skills: "HTML, CSS, Tailwind, React JS, Responsive design",
+        link:"https://hamzaoda.github.io/Modern_Bank/",
+        github:"https://github.com/hamzaoda/Modern_Bank"
+    },
+    {
         name:"Easy Bank",
         image:proj2,
         skills: "HTML, CSS, SAAS, Flex",
@@ -35,5 +51,4 @@ export const ProjectList = [
         link:"https://hamzaoda.github.io/Natours-demo/",
         github:"https://github.com/hamzaoda/Natours-demo"
     },
-    
 ]
