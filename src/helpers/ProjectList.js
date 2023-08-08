@@ -4,6 +4,7 @@ import proj3 from '../assets/3.png'
 import proj4 from '../assets/4.png'
 import proj5 from '../assets/5.png'
 import proj6 from '../assets/6.png'
+import proj7 from '../assets/7.png'
 
 
 
@@ -50,5 +51,12 @@ export const ProjectList = [
         skills: "HTML, CSS, SAAS, Flex",
         link:"https://hamzaoda.github.io/Natours-demo/",
         github:"https://github.com/hamzaoda/Natours-demo"
+    },
+    {
+        name:"Simple Amazon Clone",
+        image:proj7,
+        skills: "Next JS, SSR, Redux, Firestore, Webhooks, Tailwaind, Strip Payment, Google Auth & Login, CSS, HTMl",
+        link:"https://amazon-clone-pied-five.vercel.app/",
+        github:"https://github.com/hamzaoda/Amazon-clone"
     },
 ]
