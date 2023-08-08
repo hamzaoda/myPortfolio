@@ -18,6 +18,13 @@ export const ProjectList = [
         github:"https://github.com/hamzaoda/Hamza-s-Shop"
     },
     {
+        name:"Simple Amazon Clone",
+        image:proj7,
+        skills: "Next JS, SSR, Redux, Firestore, Webhooks, Tailwaind, Strip Payment, Google Auth & Login, CSS, HTML",
+        link:"https://amazon-clone-pied-five.vercel.app/",
+        github:"https://github.com/hamzaoda/Amazon-clone"
+    },
+    {
         name:"Gpt3_Website",
         image:proj4,
         skills: "React JS, HTML, CSS, Flex",
@@ -52,11 +59,5 @@ export const ProjectList = [
         link:"https://hamzaoda.github.io/Natours-demo/",
         github:"https://github.com/hamzaoda/Natours-demo"
     },
-    {
-        name:"Simple Amazon Clone",
-        image:proj7,
-        skills: "Next JS, SSR, Redux, Firestore, Webhooks, Tailwaind, Strip Payment, Google Auth & Login, CSS, HTMl",
-        link:"https://amazon-clone-pied-five.vercel.app/",
-        github:"https://github.com/hamzaoda/Amazon-clone"
-    },
+
 ]
