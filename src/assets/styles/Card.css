@@ -1,0 +1,22 @@
+.card-description{
+    color: #e4e6e7;
+    font-style: 2rem;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.card-button{
+    padding: 10px 15px;
+    font-weight: 600;
+    color:white;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: linear-gradient(270deg, #b133ff 0%, #00dbd8  100%);
+}
+.card-button:hover{
+    background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
+}
+
+.card-shadow{
+    box-shadow: 3px 3px 20px rgba(80,78,78,0.5);
+}
