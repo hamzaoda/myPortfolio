@@ -32,42 +32,42 @@ function technologies() {
                     <h6 className="list-title text-center py-4">Front End:</h6>
                     <div className="flex sm:flex-row flex-col sm:gap-12 gap-0 justify-center">
                         {/* first list */}
-                        <ul className="list-p sm:w-1/2 w-full text-center justify-center">
-                            <li className="ml-4 flex items-center h-12 md:justify-normal  justify-center">
+                        <ul className="list-p sm:w-1/2 w-1/2 mx-auto text-center justify-center">
+                            <li className="ml-4 flex items-center h-12 md:justify-normal  justify-start">
                                 <BsDot size="1.5rem" />
                                 React JS
-                                <DiReact size="2.5rem" />
+                                <DiReact size="2.5rem" className="ml-auto"/>
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                            <li className="ml-4 flex items-center  justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
                                 Next JS
-                                <SiNextdotjs size="2.25rem" className="ml-4" />
+                                <SiNextdotjs size="2.25rem" className="ml-auto" />
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                            <li className="ml-4 flex items-center  justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
                                 HTML 5
                                 <AiOutlineHtml5
                                     size="2.5rem"
-                                    className="ml-4"
+                                    className="ml-auto"
                                 />
                             </li>
                         </ul>
                         {/* second list */}
-                        <ul className="list-p sm:w-1/2 w-full">
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                        <ul className="list-p sm:w-1/2 w-1/2 mx-auto">
+                            <li className="ml-4 flex items-center  justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
                                 Tailwaind
-                                <SiTailwindcss size="2.5rem" className="ml-4" />
+                                <SiTailwindcss size="2.5rem" className="ml-auto" />
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal ">
+                            <li className="ml-4 flex items-center justify-start md:justify-normal ">
                                 <BsDot size="1.5rem" />
                                 Bootstrap
-                                <BsBootstrap size="2.25rem" className="ml-4 " />
+                                <BsBootstrap size="2.25rem" className="ml-auto " />
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                            <li className="ml-4 flex items-center  justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
                                 CSS 3
-                                <DiCss3 size="2.5rem" className="ml-4" />
+                                <DiCss3 size="2.5rem" className="ml-auto" />
                             </li>
                         </ul>
                     </div>
@@ -77,34 +77,34 @@ function technologies() {
                     <h6 className="list-title text-center py-4">Back End:</h6>
                     <div className="flex sm:flex-row flex-col sm:gap-12 gap-0 justify-center">
                         {/* first list */}
-                        <ul className="list-p sm:w-1/2 w-full">
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                        <ul className="list-p sm:w-1/2 w-1/2 mx-auto">
+                            <li className="ml-4 flex items-center justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
-                                Node JS
-                                <DiNodejsSmall size="2.5rem" />
+                                    Node JS
+                                <DiNodejsSmall className="ml-auto" size="2.5rem" />
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                            <li className="ml-4 flex items-center justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
-                                Mongo DB
-                                <BiLogoMongodb size="2.5rem" className="ml-4" />
+                                    Mongo DB
+                                <BiLogoMongodb  size="2.5rem" className="ml-auto" />
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                            <li className="ml-4 flex items-center  justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
                                 Express JS
-                                <SiExpressvpn size="2.15rem" className="ml-4" />
+                                <SiExpressvpn size="2.15rem" className="ml-auto" />
                             </li>
                         </ul>
                         {/* second list */}
-                        <ul className="list-p sm:w-1/2 w-full">
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal">
+                        <ul className="list-p sm:w-1/2 w-1/2 mx-auto">
+                            <li className="ml-4 flex items-center justify-start md:justify-normal">
                                 <BsDot size="1.5rem" />
                                 SQL
-                                <DiFirebase size="2.5rem" className="ml-4" />
+                                <DiFirebase size="2.5rem" className="ml-auto" />
                             </li>
-                            <li className="ml-4 flex items-center  justify-center md:justify-normal ">
+                            <li className="ml-4 flex items-center justify-start md:justify-normal ">
                                 <BsDot size="1.5rem" />
                                 RESTful API
-                                <TbApi size="2.5rem" className="ml-4 " />
+                                <TbApi size="2.5rem" className="ml-auto " />
                             </li>
                         </ul>
                     </div>

@@ -2,18 +2,16 @@
     padding: 12px;
     color: white;
     font-size: 2rem;
-    border: #ffffff 1px solid;
     border-radius: 50px;
     background: linear-gradient(270deg, #00dbd8 0%, #b133ff 100%);
     cursor: pointer;
     transition: background 0.5s ease;
 }
 .button-home:hover {
-    background: linear-gradient(270deg, #ff622e 0%, #b133ff 100%);
+    background: linear-gradient(270deg, #b133ff 0%, #00dbd8 100%);
 }
 .container {
     background-color: white;
-    background-image: url('../src//assets/images/social_media.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -6,7 +6,7 @@ function Footer() {
         <div className="m-auto w-[75%]">
             <div className="border border-white "></div>
             <div className="text-white h-[300px] flex md:flex-row flex-col py-12 justify-between items-center gap-12">
-                <div className="flex flex-col text-2xl md:items-baseline items-center">
+                <div className="flex flex-col text-xl md:items-baseline items-center">
                     <div className="flex h-12 items-center">
                         <BiPhoneCall size="1.75rem" />
                         <h4 className="ml-4 ">Call:</h4>
@@ -15,7 +15,7 @@ function Footer() {
                         <a href="tel:+971569462902"> +971569462902</a>
                     </p>
                 </div>
-                <div className="flex flex-col text-2xl md:items-baseline items-center">
+                <div className="flex flex-col text-xl md:items-baseline items-center">
                     <div className="flex h-12 items-center">
                         <AiOutlineMail size="1.75rem" />
                         <h4 className="ml-4 ">Email:</h4>

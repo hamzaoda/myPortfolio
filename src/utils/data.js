@@ -6,6 +6,7 @@ import image4 from '../assets/images/4.png';
 import image5 from '../assets/images/5.png';
 import image6 from '../assets/images/6.png';
 import image7 from '../assets/images/7.png';
+import ThreadsImage from '../assets/images/Threads-app.png';
 
 const data = [{
     id:1,
@@ -27,6 +28,15 @@ const data = [{
     github:"https://osama-salama.com/"
 },{
     id:3,
+    name:"Threads Clone",
+    image: ThreadsImage,
+    alt:"Threads Clone image",
+    description:"This website is a clone for the famous website Threads, it's built in Next JS 13 Full Stack with Mongo DB and Tailwaind and google auth using Clerk auth",
+    skills:"Next JS, Mongo DB, Webhooks, Tailwaind, Google Auth & Login, CSS, HTML, Clerk",
+    link:"https://threads-app-two-rosy.vercel.app/",
+    github:"https://github.com/hamzaoda/Threads.app"
+},{
+    id:4,
     name:"Simple Amazon Clone",
     image: simpleAmazonCloneImage,
     alt:"Simple Amazon Clone image",
@@ -35,7 +45,7 @@ const data = [{
     link:"https://amazon-clone-pied-five.vercel.app/",
     github:"https://github.com/hamzaoda/Hamza-s-Shop"
 },{
-    id:4,
+    id:5,
     name:"Gpt3_Website",
     image: image3,
     alt:"Gpt3_Website image",
@@ -44,7 +54,7 @@ const data = [{
     link:"https://hamzaoda.github.io/gpt3_website/",
     github:"https://github.com/hamzaoda/gpt3_website"
 },{
-    id:5,
+    id:6,
     name:"Gerich-resturant",
     image: image4,
     alt:"Gerich-resturant Image",
@@ -53,7 +63,7 @@ const data = [{
     link:"https://hamzaoda.github.io/Gerich-resturant/",
     github:"https://github.com/hamzaoda/Gerich-resturant"
 },{
-    id:6,
+    id:7,
     name:"Modern Bank",
     image: image5,
     alt:"Modern Bank Image",
@@ -62,7 +72,7 @@ const data = [{
     link:"https://hamzaoda.github.io/Modern_Bank/",
     github:"https://github.com/hamzaoda/Modern_Bank"
 },{
-    id:7,
+    id:8,
     name:"Natours ",
     image: image6,
     alt:"Natours Image",
@@ -71,7 +81,7 @@ const data = [{
     link:"https://hamzaoda.github.io/Natours-demo/",
     github:"https://github.com/hamzaoda/Natours-demo"
 },{
-    id:8,
+    id:9,
     name:"Easy Bank",
     image: image7,
     alt:"Easy Bank Image",

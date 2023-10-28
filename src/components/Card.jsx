@@ -5,8 +5,8 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 function Card({ image, alt, name, description, skills, link, github }) {
     return (
         <div className="flex flex-col w-[350px] h-[650px] card-shadow ">
-            <div>
-                <a href={link} className="relative">
+            <div className="relative">
+                <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="hover-overlay absolute m-auto bottom-0 left-0 w-full h-full bg-black opacity-0 hover:opacity-50 transition-opacity duration-300">
                     <p className="text-white absolute text-center sm:mt-8 mt-2 sm:text-xl text-sm bottom-0 top-0 right-0 left-0">
                         {name}
@@ -40,11 +40,11 @@ function Card({ image, alt, name, description, skills, link, github }) {
                 </h6>
                 <div className="w-[100%] flex flex-row justify-around">
                     {/* Link View */}
-                    <a href={link} className="card-button">
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="card-button">
                         <button>Preview</button>
                     </a>
                     {/* Git Hub Repo */}
-                    <a href={github} className="card-button">
+                    <a href={github} target="_blank" rel="noopener noreferrer" className="card-button">
                         <button>Git Hub</button>
                     </a>
                 </div>

@@ -1,3 +1,5 @@
+import pic from '../assets/images/social_media.png'
+
 function Hero() {
     return (
         <div className="md:flex min-h-full w-[100%] mt-24">
@@ -18,7 +20,9 @@ function Hero() {
                     </div>
                     {/* Image */}
                     <div className="flex items-center justify-center lg:ml-24 relative">
-                        <div className="container lg:h-[350px] lg:w-[350px] h-[250px] w-[250px]"></div>
+                        <div className=" lg:h-[350px] lg:w-[350px] h-[250px] w-[250px]">
+                            <img className='container' src={pic} alt="Social Media Image" />
+                        </div>
                         <div className="-z-10 ">
                             {/* gradient start */}
                             <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient left-12" />
